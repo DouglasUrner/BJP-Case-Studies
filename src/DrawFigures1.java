@@ -5,6 +5,13 @@
  */
 public class DrawFigures1 {
     public static void main(String[] args) {
+        drawDiamond();
+        drawX();
+        drawRocket();
+    }
+
+    private static void drawDiamond() {
+
         System.out.println("   /\\");
         System.out.println("  /  \\");
         System.out.println(" /    \\");
@@ -13,6 +20,9 @@ public class DrawFigures1 {
         System.out.println("   \\/");
 
         System.out.println("");
+    }
+
+    private static void drawX() {
 
         System.out.println(" \\    /");
         System.out.println("  \\  /");
@@ -22,6 +32,9 @@ public class DrawFigures1 {
         System.out.println(" /    \\");
 
         System.out.println("");
+    }
+
+    private static void drawRocket() {
 
         System.out.println("   /\\");
         System.out.println("  /  \\");
