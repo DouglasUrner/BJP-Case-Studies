@@ -6,20 +6,21 @@
 public class DrawFigures1 {
     public static void main(String[] args) {
         drawDiamond();
+        System.out.println("");
         drawX();
+        System.out.println("");
         drawRocket();
+        System.out.println("");
     }
 
     private static void drawDiamond() {
         drawCone();
         drawV();
-        System.out.println("");
     }
 
     private static void drawX() {
         drawV();
         drawCone();
-        System.out.println("");
     }
 
     private static void drawRocket() {
@@ -29,7 +30,6 @@ public class DrawFigures1 {
         System.out.println("|States|");
         drawBox();
         drawCone();
-        System.out.println("");
     }
 
     private static void drawCone() {
