@@ -11,46 +11,43 @@ public class DrawFigures1 {
     }
 
     private static void drawDiamond() {
-
-        System.out.println("   /\\");
-        System.out.println("  /  \\");
-        System.out.println(" /    \\");
-        System.out.println(" \\    /");
-        System.out.println("  \\  /");
-        System.out.println("   \\/");
-
+        drawCone();
+        drawV();
         System.out.println("");
     }
 
     private static void drawX() {
-
-        System.out.println(" \\    /");
-        System.out.println("  \\  /");
-        System.out.println("   \\/");
-        System.out.println("   /\\");
-        System.out.println("  /  \\");
-        System.out.println(" /    \\");
-
+        drawV();
+        drawCone();
         System.out.println("");
     }
 
     private static void drawRocket() {
-
-        System.out.println("   /\\");
-        System.out.println("  /  \\");
-        System.out.println(" /    \\");
-        System.out.println("+------+");
-        System.out.println("|      |");
-        System.out.println("|      |");
-        System.out.println("+------+");
+        drawCone();
+        drawBox();
         System.out.println("|United|");
         System.out.println("|States|");
-        System.out.println("+------+");
-        System.out.println("|      |");
-        System.out.println("|      |");
-        System.out.println("+------+");
+        drawBox();
+        drawCone();
+        System.out.println("");
+    }
+
+    private static void drawCone() {
         System.out.println("   /\\");
         System.out.println("  /  \\");
         System.out.println(" /    \\");
+    }
+
+    private static void drawV() {
+        System.out.println(" \\    /");
+        System.out.println("  \\  /");
+        System.out.println("   \\/");
+    }
+
+    private static void drawBox() {
+        System.out.println("+------+");
+        System.out.println("|      |");
+        System.out.println("|      |");
+        System.out.println("+------+");
     }
 }
